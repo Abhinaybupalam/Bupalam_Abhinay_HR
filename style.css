@@ -1,0 +1,1198 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    list-style: none;
+    
+}
+
+@media(min-width:1000px) and (max-width:2000px) {
+
+body{
+   
+    background-color:rgba(50, 65, 52, 0.688);
+    background-image: url(./GR/Page_backgrouns_1.jpg);
+    background-size: cover;
+
+
+        img{
+            height: 50px;
+           
+        }
+
+       
+}
+
+
+
+header{
+
+    
+    
+    nav{
+               
+        margin-top: 2rem;
+        
+        
+        
+        ul{
+            display: flex;
+            gap:4rem;
+            justify-content:space-evenly;
+            margin: auto;
+            margin-top: 1rem;
+           
+            
+            li{
+                
+                a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: aliceblue;
+                font-weight: 600;
+                }
+
+                a:hover{
+                    cursor: pointer;
+                    color: rgb(187, 160, 251);
+                }
+            }
+
+           
+        }
+
+        
+    }
+
+}
+
+section{
+
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin-top: 3rem;
+
+   .page1_rightimage1{
+
+
+    img {
+
+    height: 400px;
+    width: auto;
+    border-radius:300px 100px;
+    box-shadow:2px 20px 7px 5px  rgb(109, 109, 250) ;
+
+    }
+
+   }
+
+   .page1_matter{
+
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-left:9rem;
+    
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 45px;
+
+    }
+
+    h3{
+        font-size: 30px;
+        span{
+            color:rgb(31, 31, 31);
+            font-size: 40px;
+        }
+    }
+
+    h4{
+        font-size: 17px;
+        max-width: 90%;
+    }
+
+
+   }
+
+   .icons{
+     display: flex;
+     gap: 1rem;   
+
+        img{
+
+            height: 80px;
+
+        }
+
+   }
+
+   .download{
+
+    margin-bottom: 1rem;
+
+    a{
+
+        
+       
+    button {
+
+        font-size: 20px;
+        color: black;
+        padding:1rem;
+        border-radius: 30px;
+        width: 60%;
+        background-color: #9b9740;
+        box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+        border: 0.5px solid rgb(61, 61, 61);
+        cursor: pointer;
+        /*text-shadow:2px 1px 4px black ;*/
+        font-weight:600;
+        
+        
+
+    }
+
+    button:hover{
+        
+        text-decoration: underline;
+    }
+}
+
+
+   }
+
+    
+}
+
+/* SKills and conatct me same page for HR */
+
+#skills_HR {
+     
+    display: flex;
+    flex-direction: column;
+   /* background-image: url(./GR/skills_BG.jpg);*/
+    
+
+    .background_skills{
+
+        opacity: 40%;
+
+    }
+
+    h6 {
+
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom:1rem ;
+        padding-top: 1rem;
+    }
+
+   article {
+
+
+    img{
+
+        max-height: 15vh;
+            height: 40%;
+            align-items: center;
+            /*padding: 1rem;*/
+            margin: 1rem;
+            border: 1px solid white;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+    }
+
+    .HR_process{
+
+        display: flex;
+        display: grid;
+        margin: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(40vh,1fr));
+        align-items: center;
+        gap:1rem;
+
+        
+        .On_boarding{
+
+            display: flex;
+            text-align: center;
+           justify-content: space-evenly;
+           background: #9b9740;
+           border: 1px solid black;
+           border-radius: 20px;
+           /* box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);*/
+        
+
+
+           .image_onboarding{
+
+            display: flex;
+            flex-direction: column;
+            justify-items:center;
+
+           }
+        
+        }
+
+        
+}
+
+   } 
+    
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #9b9740;
+
+
+    h6{
+        color :black;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    
+    margin-top: 3rem;
+    padding: 1rem;
+
+    .lower_bottom{
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+   aside{
+
+    p{
+        display:flex;
+        justify-items: center;
+        align-items: center;
+        color: black;
+        gap: 1rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        
+        
+        a{
+        display:flex;
+        justify-items: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        gap: 1rem;
+        }
+    }
+
+    p:hover{
+
+        background-color: #0f0f0f;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        background-image: url(./GR/Page_backgrouns.jpg);
+        a{
+            color: white;
+        }
+    }
+
+    span{
+
+        display:flex;
+        justify-items: center;
+        align-items: center;
+        color: black;
+        gap: 1rem;
+        font-weight: 700;
+        padding: 0.5rem;
+
+    }
+
+    h6{
+        font-size: 1.5rem;
+        text-decoration: underline;
+    
+    }
+    
+    .follow_me{
+
+        p{
+            border-radius:55% ;
+            padding: 1rem;
+        }
+
+        h5{
+            padding: .5rem;
+            color: #0f0f0f;
+            font-size: 1.4rem;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        div{
+            display: flex;
+        }
+        
+
+    }
+    
+
+
+   }
+ 
+    
+        form{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            padding:1rem;
+            border: 1px solid white;
+            border-radius: 20px;
+            background-color: rgb(23, 23, 23);
+            box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+            gap:1rem;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            
+            input{
+                padding:0.3rem;
+                color: black;
+            }
+
+           
+
+            button{
+
+                color: black;
+                padding:1rem;
+                border-radius: 40px;
+                font-size: 1rem;
+                cursor: pointer;
+                
+            }
+
+           
+
+        }
+    
+
+}
+
+
+}
+
+
+@media(min-width:600px) and (max-width:999px) {
+
+    body{
+       
+        background-color:rgba(50, 65, 52, 0.688);
+        background-image: url(./GR/Page_backgrouns_1.jpg);
+        background-size: cover;
+
+    
+            img{
+                height: 50px;
+               
+            }
+    
+           
+    }
+    
+    
+    
+    header{
+    
+        margin-top: 4rem;
+        
+        nav{
+                   
+           
+            
+            
+            ul{
+                display: flex;
+                gap:1rem;
+                justify-content:space-evenly;
+                margin: auto;
+               
+            
+                
+                li{
+                    
+                    a{
+                    text-decoration: none;
+                    font-size: 1rem;
+                    color: aliceblue;
+                    font-weight: 600;
+                    }
+    
+                    a:hover{
+                        cursor: pointer;
+                        color: rgb(187, 160, 251);
+                    }
+                }
+    
+               
+            }
+    
+            
+        }
+    
+    }
+    
+    section{
+    
+      display: flex;
+      flex-direction: column;
+    
+       .page1_rightimage1{
+
+        display: flex;
+        justify-content: center;
+
+    
+        img {
+    
+        height: 300px;
+        width: auto;
+        border-radius:300px 100px;
+        box-shadow:2px 20px 7px 5px rgb(109, 109, 250) ;
+        margin-bottom: 1rem;
+    
+        }
+    
+       }
+    
+       .page1_matter{
+
+        marquee{
+
+            margin-top: 2rem;
+        }
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1rem;
+        margin-top: 1rem;
+        
+    
+        h1{
+            font-size: 25px;
+        }
+    
+        h2{
+            font-size: 30px;
+    
+        }
+    
+        h3{
+            font-size: 25px;
+            span{
+                color:rgb(31, 31, 31);
+                font-size: 30px;
+            }
+        }
+    
+        h4{
+            font-size: 16px;
+            max-width: 70%;
+            margin: auto;
+        }
+    
+    
+       }
+    
+       .icons{
+         display: none;
+        
+       }
+    
+       .download{
+    
+        margin-bottom: 1rem;
+    
+        a{
+    
+           
+        button {
+    
+            font-size: 16px;
+            color: black;
+            padding:1rem;
+            border-radius: 30px;
+            background-color: #9b9740;
+            box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+            border: 0.5px solid rgb(61, 61, 61);
+            cursor: pointer;
+            /*text-shadow:2px 1px 4px black ;*/
+            font-weight:600;
+            margin-bottom: 1rem;
+            
+    
+        }
+    
+        button:hover{
+            
+            text-decoration: underline;
+        }
+    }
+    
+    
+       }
+    
+        
+    }
+    
+    /* SKills and conatct me same page for HR */
+    
+    #skills_HR {
+         
+        display: flex;
+        flex-direction: column;
+       /* background-image: url(./GR/skills_BG.jpg);*/
+        
+    
+        .background_skills{
+    
+            opacity: 40%;
+    
+        }
+    
+        h6 {
+    
+            font-size: 1.5rem;
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom:1rem ;
+            padding-top: 1rem;
+        }
+    
+       article {
+    
+    
+        img{
+    
+            max-height: 17vh;
+                height: 50%;
+                align-items: center;
+                /*padding: 1rem;*/
+                margin: 1rem;
+                border: 1px solid white;
+                border-radius: 20px;
+                box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+        }
+    
+        .HR_process{
+    
+            display: flex;
+            display: grid;
+            margin: 1rem;
+            grid-template-columns: repeat(auto-fit,minmax(40vh,1fr));
+            align-items: center;
+            gap:1rem;
+    
+            
+            .On_boarding{
+    
+                display: flex;
+                text-align: center;
+               justify-content: space-evenly;
+               background: #9b9740;
+               border: 1px solid black;
+               border-radius: 20px;
+               /* box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);*/
+            
+    
+    
+               .image_onboarding{
+    
+                display: flex;
+                flex-direction: column;
+                justify-items:center;
+    
+               }
+            
+            }
+    
+            
+    }
+    
+       } 
+        
+    }
+    
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: #9b9740;
+    
+    
+        h6{
+            color :black;
+            text-decoration: underline;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    
+        
+        margin-top: 3rem;
+        padding: 1rem;
+    
+        .lower_bottom{
+    
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+        }
+       aside{
+    
+        p{
+            display:flex;
+            justify-items: center;
+            align-items: center;
+            color: black;
+            gap: 1rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            
+            
+            a{
+            display:flex;
+            justify-items: center;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            gap: 1rem;
+            }
+        }
+    
+        p:hover{
+    
+            background-color: #0f0f0f;
+            cursor: pointer;
+            color: white;
+            border-radius: 10px;
+            background-image: url(./GR/Page_backgrouns.jpg);
+            a{
+                color: white;
+            }
+        }
+    
+        span{
+    
+            display:flex;
+            justify-items: center;
+            align-items: center;
+            color: black;
+            gap: 1rem;
+            font-weight: 700;
+            padding: 0.5rem;
+    
+        }
+    
+        h6{
+            font-size: 1.5rem;
+            text-decoration: underline;
+        
+        }
+        
+        .follow_me{
+    
+            p{
+                border-radius:55% ;
+                padding: 1rem;
+            }
+    
+            h5{
+                padding: .5rem;
+                color: #0f0f0f;
+                font-size: 1.4rem;
+            }
+    
+            display: flex;
+            flex-direction: column;
+    
+            div{
+                display: flex;
+            }
+            
+    
+        }
+        
+    
+    
+       }
+    
+        
+            form{
+                margin-top: 1rem;
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                padding:.7rem;
+                border: 1px solid white;
+                border-radius: 20px;
+                background-color: rgb(23, 23, 23);
+                box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+                gap:1rem;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                
+                input{
+                    padding:0.2rem;
+                    color: black;
+                }
+    
+               
+    
+                button{
+    
+                    color: black;
+                    padding:.6rem;
+                    border-radius: 40px;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    width: 50%;
+
+                }
+    
+               
+    
+            }
+        
+    
+    }
+    
+    
+   
+    
+    
+    }
+
+    @media(min-width:200px) and (max-width:599px) {
+
+        body{
+           
+            background-color:rgba(50, 65, 52, 0.688);
+            background-image: url(./GR/Page_backgrouns_1.jpg);
+            background-size: cover;
+        
+        
+        
+        
+                img{
+                    height: 50px;
+                   
+                }
+        
+               
+        }
+        
+        
+        
+        header{
+
+           
+            nav{
+                       
+            
+                ul{
+                    display: flex;
+                    gap:0.5rem;
+                    justify-content:space-evenly;
+                   
+                    margin-top: 1rem;
+                   
+                    
+                    li{
+                        
+                        a{
+                        text-decoration: none;
+                        font-size: 1rem;
+                        color: aliceblue;
+                        font-weight: 600;
+                        }
+        
+                        a:hover{
+                            cursor: pointer;
+                            color: rgb(187, 160, 251);
+                        }
+                    }
+        
+                   
+                }
+        
+                
+            }
+        
+        }
+        
+        section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        
+           .page1_rightimage1{
+        
+            img {
+        
+            height: 150px;
+            width: auto;
+            border-radius:300px 100px;
+            box-shadow:2px 20px 7px 5px rgb(109, 109, 250) ;
+            margin-bottom: 2rem;
+        
+            }
+        
+           }
+        
+           .page1_matter{
+        
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+
+            marquee{
+
+                margin-top: 2rem;
+            }
+            
+        
+            h1{
+                font-size: 20px;
+            }
+        
+            h2{
+                font-size: 20px;
+        
+            }
+        
+            h3{
+                font-size: 20px;
+                span{
+                    color:rgb(31, 31, 31);
+                    font-size: 20px;
+                }
+            }
+        
+            h4{
+                font-size: 16px;
+               
+            }
+        
+        
+           }
+        
+           .icons{
+             display: none;
+             
+        
+           }
+        
+           .download{
+        
+            margin-bottom: 1rem;
+        
+            a{
+        
+                
+               
+            button {
+        
+                font-size: 16px;
+                color: black;
+                padding:1rem;
+                border-radius: 30px;
+                background-color: #9b9740;
+                box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+                border: 0.5px solid rgb(61, 61, 61);
+                cursor: pointer;
+                /*text-shadow:2px 1px 4px black ;*/
+                font-weight:600;
+                   
+        
+            }
+        
+            button:hover{
+                
+                text-decoration: underline;
+            }
+        }
+        
+        
+           }
+        
+            
+        }
+        
+        /* SKills and conatct me same page for HR */
+        
+        #skills_HR {
+             
+            display: flex;
+            flex-direction: column;
+           /* background-image: url(./GR/skills_BG.jpg);*/
+            
+        
+            .background_skills{
+        
+                opacity: 40%;
+        
+            }
+        
+            h6 {
+        
+                font-size: 1.5rem;
+                text-align: center;
+                text-decoration: underline;
+                margin-bottom:1rem ;
+                padding-top: 1rem;
+            }
+        
+           article {
+        
+        
+            img{
+        
+                max-height: 17vh;
+                    height: 50%;
+                    align-items: center;
+                    /*padding: 1rem;*/
+                    margin: 1rem;
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+            }
+        
+            .HR_process{
+        
+                display: flex;
+                display: grid;
+                margin: 1rem;
+                grid-template-columns: repeat(auto-fit,minmax(40vh,1fr));
+                align-items: center;
+                gap:1rem;
+        
+                
+                .On_boarding{
+        
+                    display: flex;
+                    text-align: center;
+                   justify-content: space-evenly;
+                   background: #9b9740;
+                   border: 1px solid black;
+                   border-radius: 20px;
+                   /* box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);*/
+                
+        
+        
+                   .image_onboarding{
+        
+                    display: flex;
+                    flex-direction: column;
+                    justify-items:center;
+        
+                   }
+                
+                }
+        
+                
+        }
+        
+           } 
+            
+        }
+        
+        
+       
+        
+        footer{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            background-color: #9b9740;
+        
+        
+            h6{
+                color :black;
+                text-decoration: underline;
+                font-size: 1rem;
+                text-align: center;
+            }
+        
+            
+            margin-top: 3rem;
+            padding: 1rem;
+        
+            .lower_bottom{
+        
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+            }
+           aside{
+        
+            p{
+                display:flex;
+                justify-items: center;
+                align-items: center;
+                color: black;
+                gap: 1rem;
+                font-weight: 700;
+                padding: 0.5rem;
+                
+                
+                a{
+                display:flex;
+                justify-items: center;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                gap: 1rem;
+                }
+            }
+        
+            p:hover{
+        
+                background-color: #0f0f0f;
+                cursor: pointer;
+                color: white;
+                border-radius: 10px;
+                background-image: url(./GR/Page_backgrouns.jpg);
+                a{
+                    color: white;
+                }
+            }
+        
+            span{
+        
+                display:flex;
+                justify-items: center;
+                align-items: center;
+                color: black;
+                gap: 1rem;
+                font-weight: 700;
+                padding: 0.5rem;
+        
+            }
+        
+            h6{
+                font-size: 1rem;
+                text-decoration: underline;
+            
+            }
+            
+            .follow_me{
+        
+                p{
+                    border-radius:55% ;
+                    padding: 1rem;
+                }
+        
+                h5{
+                    padding: .5rem;
+                    color: #0f0f0f;
+                    font-size: 1rem;
+                }
+        
+                display: flex;
+                flex-direction: column;
+        
+                div{
+                    display: flex;
+                }
+                
+        
+            }
+            
+        
+        
+           }
+        
+            
+            
+            
+                form{
+                    width: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    padding:1rem;
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    background-color: rgb(23, 23, 23);
+                    box-shadow: 0 6px 12px 0 rgba(246, 242, 242, 0.2), 0 12px 40px 0 rgba(247, 242, 242, 0.19);
+                    gap:1rem;
+                    color: black;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                    margin-left: 2rem;
+                    
+                    input{
+                        padding:0.3rem;
+                        color: black;
+                    }
+        
+                   
+        
+                    button{
+        
+                        color: black;
+                        padding:1rem;
+                        border-radius: 40px;
+                        font-size: 1rem;
+                        cursor: pointer;
+                        
+                    }
+        
+                   
+        
+                }
+            
+        
+        }
+        
+        
+       
+        
+        
+        
+        
+        
+        
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+

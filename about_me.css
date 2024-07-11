@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    
+    
+}
+
+body{
+        
+    background-color: rgba(43,43,42,255);
+}
+
+@media(min-width:1000px) and (max-width:2000px) {
+
+    .ABout_me{
+
+        display: grid;
+        grid-template-columns: 40% 60%;
+    
+        .about_me_aside {
+            display: flex;
+            justify-content: center;
+            img{
+                height: 85vh;
+                border-radius: 60px;
+                filter: brightness(80%);
+                box-shadow: 6px 0px 0px 4px black;
+                transform: rotate(-20deg);
+                margin-top: 4rem;
+                opacity: 80%;
+                
+            }
+        }
+
+        .About_me_Article{
+
+            display:flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+
+            .head_name{
+
+                font-size: 25px;
+                text-decoration: underline;
+
+            }
+
+            .roles_respons{
+            ul{
+                p{
+                    font-size: 17px;
+                    margin-bottom: 0.5rem;
+                }
+                
+                li{
+                    margin-left: 1.5rem;
+                    margin-bottom: 0.2rem;
+                    
+                    
+                }
+            }
+        }
+
+
+            .roles{
+
+                ul {
+
+                    list-style: none;
+                    li{
+                        span{
+                            font-weight: 600;
+                            color: rgb(118, 118, 117);
+                        }
+
+                        margin-bottom:0.5rem;
+                    
+                       
+
+                    }
+
+                   
+                
+
+            }
+
+            }
+            }
+
+        }
+
+        footer{
+
+            margin: 2rem;
+            a{
+            text-decoration: none;
+        }
+        }
+
+
+    }
+
+   
+
+@media(min-width:600px) and (max-width:999px) {
+
+    .ABout_me{
+
+        display: grid;
+        grid-template-row: 50% 50%;
+    
+        .about_me_aside {
+            display: flex;
+            justify-content: center;
+            img{
+                height: 85vh;
+                border-radius: 60px;
+                filter: brightness(80%);
+                box-shadow: 6px 0px 0px 4px black;
+                transform: rotate(-20deg);
+                margin-top: 4rem;
+                opacity: 80%;
+                
+            }
+        }
+
+        .About_me_Article{
+
+            display:flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+            margin: 1rem;
+
+            .head_name{
+
+                font-size: 25px;
+                text-decoration: underline;
+
+            }
+
+            .roles_respons{
+            ul{
+                p{
+                    font-size: 17px;
+                    margin-bottom: 0.5rem;
+                }
+                
+                li{
+                    margin-left: 1.5rem;
+                    margin-bottom: 0.2rem;
+                    
+                    
+                }
+            }
+        }
+
+
+            .roles{
+
+                ul {
+
+                    list-style: none;
+                    li{
+                        span{
+                            font-weight: 600;
+                            color: rgb(118, 118, 117);
+                        }
+
+                        margin-bottom:0.5rem;
+                    
+                       
+
+                    }
+
+                   
+                
+
+            }
+
+            }
+            }
+
+        }
+
+        footer{
+
+            margin: 2rem;
+            a{
+            text-decoration: none;
+        }
+        }
+
+}
+
+
+@media(min-width:200px) and (max-width:599px) {
+
+    .ABout_me{
+
+        display: grid;
+        grid-template-row: 50% 50%;
+    
+        .about_me_aside {
+            display: flex;
+            justify-content: center;
+            img{
+                height: 70vh;
+                border-radius: 60px;
+                filter: brightness(80%);
+                box-shadow: 6px 0px 0px 4px black;
+                transform: rotate(-10deg);
+                margin-top: 4rem;
+                opacity: 80%;
+                margin-bottom: 2rem;
+                
+            }
+        }
+
+        .About_me_Article{
+
+            display:flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+            margin: 1rem;
+
+            .head_name{
+
+                font-size: 25px;
+                text-decoration: underline;
+
+            }
+
+            .roles_respons{
+            ul{
+                p{
+                    font-size: 17px;
+                    margin-bottom: 0.5rem;
+                }
+                
+                li{
+                    margin-left: 1.5rem;
+                    margin-bottom: 0.2rem;
+                    
+                    
+                }
+            }
+        }
+
+
+            .roles{
+
+                ul {
+
+                    list-style: none;
+                    li{
+                        span{
+                            font-weight: 600;
+                            color: rgb(118, 118, 117);
+                        }
+
+                        margin-bottom:0.5rem;
+                    
+                       
+
+                    }
+
+                   
+                
+
+            }
+
+            }
+            }
+
+        }
+
+        footer{
+
+            margin: 2rem;
+            a{
+            text-decoration: none;
+        }
+        }
+
+  
+}
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
